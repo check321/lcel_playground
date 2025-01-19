@@ -11,3 +11,7 @@ pypdf>=3.0.0
 
 # langchain_openai
 langchain-openai
+
+langgraph
+langsmith
+tavily-python

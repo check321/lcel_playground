@@ -147,3 +147,17 @@ fn main() {
 
 Quicksort is an efficient and widely used sorting algorithm that leverages a divide-and-conquer approach. By understanding its steps and seeing implementations in both Python and Rust, you can appreciate its effectiveness and how it can be adapted to different programming languages. If you have any questions or need further clarification on any part, feel free to ask!
 
+## LangGraph Chatbot Demo
+
+### ChatBot
+
+> Q: Trump币发行在哪条公链上？
+> A: 特朗普币（TrumpCoin）是一种加密货币，通常在多个区块链上发行和交易。具体的发行链可能会有所不同，但常见的区块链平台包括以太坊（Ethereum）和波场（Tron）等。如果你是在寻找特定的特朗普币项目，建议查阅该项目的官方网站或相关的加密货币交易平台，以获取最新的发行和交易信息。
+> PS: 在没有检索工具的加持下，LLM基于训练数据出现“幻觉”，给出了错误的答案
+
+### ChatBot with Tools
+
+> Q: Trump币发行在哪条公链上？
+> A: Trump币（TRUMP）是基于Solana区块链发行的。这种加密货币主要是作为一种meme代币进行交易，并在Coinbase和Binance等交易所上市。
+> PS: 在检索工具加持下，LLM通过关键字“Trump币 发行 公链”使用Tavily进行新闻检索后给出了实时性很强的回答 🎉
+
