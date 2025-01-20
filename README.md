@@ -161,3 +161,12 @@ Quicksort is an efficient and widely used sorting algorithm that leverages a div
 > A: Trump币（TRUMP）是基于Solana区块链发行的。这种加密货币主要是作为一种meme代币进行交易，并在Coinbase和Binance等交易所上市。
 > PS: 在检索工具加持下，LLM通过关键字“Trump币 发行 公链”使用Tavily进行新闻检索后给出了实时性很强的回答 🎉
 
+
+### Multi-Agent Chatbot
+
+ - Research Agent: 负责检索信息
+ - Chart Agent: 负责生成图表
+
+> Q: Obtain the ETH price from 2008-2024, and generate a price chart(.png） to current folder(./) with python,"End the task after generating the table.
+
+![ETH Price Chart](./eth_price_history.png)

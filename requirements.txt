@@ -15,3 +15,7 @@ langchain-openai
 langgraph
 langsmith
 tavily-python
+
+langchain-experimental
+pandas
+matplotlib
